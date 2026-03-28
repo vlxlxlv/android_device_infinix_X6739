@@ -48,8 +48,8 @@
             <kctl name="LOL Mux" value="Playback_L_DAC" />
             <kctl name="RCV Mux" value="Voice Playback" />
             <kctl name="Lineout Volume" value="6" />
-            <kctl name="Handset Volume" value="15" />
-            <kctl name="ADDA_DL_GAIN" value="29919" />
+            <kctl name="Handset Volume" value="18" />
+            <kctl name="ADDA_DL_GAIN" value="32543" />
         </path>
         <path name="dual_speaker_output" value="turnoff">
             <kctl name="LOL Mux" value="Open" />
@@ -60,8 +60,8 @@
             <kctl name="DAC In Mux" value="Normal Path" />
             <kctl name="LOL Mux" value="Playback" />
             <kctl name="Lineout Volume" value="6" />
-            <kctl name="Handset Volume" value="15" />
-            <kctl name="ADDA_DL_GAIN" value="29919" />
+            <kctl name="Handset Volume" value="18" />
+            <kctl name="ADDA_DL_GAIN" value="32543" />
         </path>
         <path name="speaker_output" value="turnoff">
             <kctl name="LOL Mux" value="Open" />
