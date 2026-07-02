@@ -323,6 +323,9 @@ ro.mtk_key_manager_support=1
 ro.vendor.mtk_tee_gp_support=1
 ro.vendor.mtk_trustonic_tee_support=1
 
+# USB
+vendor.usb.controller=musb-hdrc
+
 # UVC
 ro.usb.uvc.enabled=true
 
