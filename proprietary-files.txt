@@ -1275,11 +1275,6 @@ vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml
 
 # Wi-Fi
 vendor/bin/wifi_dump
-vendor/bin/wlan_assistant
 vendor/etc/init/init.wlan_drv.rc
-<<<<<<< HEAD
-vendor/etc/init/wlan_assistant.rc
-=======
 vendor/etc/wfd_source_capability.csv
->>>>>>> 1fa1fb1 (X6837: Switch to stub libaedv)
 vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so;FIX_SONAME
