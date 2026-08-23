@@ -9,7 +9,6 @@ vendor/bin/mt6660_calibration
 vendor/bin/rt5512_calibration
 vendor/lib/hw/awinic.audio.effect.so;FIX_SONAME
 vendor/lib/libbwc.so
-vendor/lib/libladder.so
 vendor/lib64/hw/audio.primary.mt6893.so
 vendor/lib64/hw/audio.r_submix.mt6893.so
 vendor/lib64/libalsautils.so:vendor/lib64/libalsautils-v31.so;FIX_SONAME
@@ -33,7 +32,6 @@ vendor/lib64/libblisrc32_vendor.so
 vendor/lib64/libbwc.so
 vendor/lib64/libcs_cs35l45_intf.so
 vendor/lib64/libcvsd_mtk.so
-vendor/lib64/libladder.so
 vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libmtklimiter_vendor.so
 vendor/lib64/libmtkshifter_vendor.so
