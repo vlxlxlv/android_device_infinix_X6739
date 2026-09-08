@@ -434,9 +434,6 @@ PRODUCT_PACKAGES += \
     libhidlbase-v31 \
     libutils-v31 
 
-# ViPER4Android
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
-
 # Wi-Fi
 PRODUCT_PACKAGES += \
     libkeystore-wifi-hidl \
