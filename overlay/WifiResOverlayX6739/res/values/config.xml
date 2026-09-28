@@ -88,7 +88,6 @@
           capability can provide power savings when wifi needs to be always kept on. -->
      <bool translatable="false" name="config_wifi_background_scan_support">true</bool>
 
-<<<<<<< HEAD
      <!-- Indicates that connected MAC randomization is supported on this device -->
      <bool translatable="false" name="config_wifi_connected_mac_randomization_supported">true</bool>
 
@@ -100,15 +99,6 @@
 
      <!-- Wifi driver supports Automatic channel selection (ACS) for softap -->
      <bool translatable="false" name="config_wifi_softap_acs_supported">true</bool>
-
-    <!-- Indicates whether or not the WLAN driver supports the NL80211_CMD_REG_CHANGE or
-         NL80211_CMD_WIPHY_REG_CHANGE events which indicate the current country code which is
-         being used by the WLAN driver. If the driver doesn't support these events
-         (configuration is `false`) then the driver must handle the setCountryCode request from
-         HAL as a blocking call. In such a case the country code will be applied
-         immediately after the country code is sent to the driver (if the method returns a
-         success). -->
-    <bool name="config_wifiDriverSupportedNl80211RegChangedEvent" translatable="false">false</bool>
 
     <!-- Default access point SSID used for tethering -->
     <string name="wifi_tether_configure_ssid_default" translatable="false">Infinix GT 10 Pro</string>

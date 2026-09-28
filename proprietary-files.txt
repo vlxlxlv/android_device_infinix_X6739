@@ -707,6 +707,11 @@ vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 vendor/lib64/vendor.transsion.hardware.trancam.trancamserver@1.0.so
 
+# Charger - from X6837-H897CFQRAbAc-T-BASE-260113V567
+system/bin/kpoc_charger|62d4917bc06b54ff61daa86994b5578821214562
+system/etc/init/kpoc_charger.rc|3fb4409bb355ae302148afac7e65a87423d6d43c
+system/lib64/libshowlogo.so|b7b1e481aaf622ce2560a575b272da5f1239f518
+
 # Connectivity
 vendor/bin/conninfra_loader
 vendor/etc/init/init.connfem.rc
@@ -789,7 +794,7 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 
 # Display (HWC)
-vendor/lib64/hw/hwcomposer.mt6893.so|9c3c7abf88dc895e639b8a16c9ed56ff0b5cbe9c|9c3c7abf88dc895e639b8a16c9ed56ff0b5cbe9c
+vendor/lib64/hw/hwcomposer.mt6893.so
 
 # DRM
 vendor/lib64/mediadrm/libwvdrmengine.so
@@ -804,10 +809,12 @@ vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
 vendor/lib64/libwvhidl.so
 
 # Fingerprint
-vendor/etc/vintf/manifest/manifest.xml:vendor/etc/vintf/manifest/manifest_goodix.xml|a04f9d93e5c6f02a6bdc3b093d8f8d426bd88d5c
-vendor/etc/init/vendor.goodix.rc|0dca9347309dc4ff0b57fd6a14b7e41d45130984
-vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so|391c9727dbdadfe83682dfc6f989b7e9e862392f
-vendor/lib64/vendor.mediatek.hardware.biometrics.fingerprint@2.1.so|9b2e1682b07d50326a2ca39a73f0f79516cc0d61
+vendor/etc/vintf/manifest/manifest.xml
+vendor/etc/init/vendor.goodix.rc
+vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
+vendor/lib64/vendor.mediatek.hardware.biometrics.fingerprint@2.1.so
+vendor/lib64/libgf_hal.so
+vendor/lib64/hw/gf_fingerprint.default.so;FIX_SONAME
 
 # Fingerprint (FOD Trigger)
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-mediatek|089a7fcc6e36aefddc04e9d0beaefe36e5905b2f
@@ -816,8 +823,6 @@ vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-mediatek.rc|
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.3-service.transsion.rc|21b317910a10eff349fed6262c753a0be65dfbcc
 vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service-mediatek.xml|ad74278e3dcd98a0cf827f798eab27f3249b601e
 vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.3-service.transsion.xml|75cbb1f959fb56709ff757549d89e495588744e1
-vendor/lib64/libgf_hal.so|37d94394988e720946f6cf6138e2057abac7a6c7
-vendor/lib64/hw/gf_fingerprint.default.so;FIX_SONAME|3fc853bf58aa006e69931e9afb1e407b11aa9674|3fc853bf58aa006e69931e9afb1e407b11aa9674
 
 # Firmware
 vendor/firmware/BT_FW.cfg
