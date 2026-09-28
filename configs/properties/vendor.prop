@@ -277,6 +277,11 @@ ro.vendor.mtk.sensor.support=yes
 ro.soc.manufacturer=Mediatek
 ro.soc.model=MT6893Z_T/CZA
 
+# Storage
+external_storage.projid.enabled=1
+external_storage.casefold.enabled=1
+external_storage.sdcardfs.enabled=0
+
 # SurfaceFlinger
 debug.sf.disable_client_composition_cache=0
 debug.sf.disable_backpressure=0
