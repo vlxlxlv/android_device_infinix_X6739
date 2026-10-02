@@ -10,11 +10,6 @@ persist.vendor.anr.dumpthr=1
 # Bluetooth
 bluetooth.profile.asha.central.enabled=true
 
-# Blur
-ro.launcher.blur.appLaunch=0
-ro.sf.blurs_are_expensive=1
-ro.surface_flinger.supports_background_blur=1
-
 # Camera
 ro.camera.sound.forced=0
 vendor.camera.tran.nums=1
@@ -68,7 +63,6 @@ ro.vendor.mtk_flv_playback_support=1
 
 # Override Animation
 persist.sys.activity_anim_perf_override=true
-persist.sys.ax_debug_enabled=1
 
 # Power
 sys.ipo.disable=1
