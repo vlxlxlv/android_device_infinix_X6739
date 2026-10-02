@@ -164,7 +164,7 @@ vendor/bin/jpegtool
 vendor/bin/lib3a.ccu.ddr
 vendor/bin/lib3a.ccu.dm
 vendor/bin/lib3a.ccu.pm
-vendor/bin/rttv
+vendor/bin/rttv;DISABLE_CHECKELF
 vendor/etc/anc_siq/cache_s5kgd2sp_17201766_front_d1300
 vendor/etc/anc_siq/cache_s5khm6sx_17201842_back_d1300
 vendor/etc/anc_siq/dgain_mask_s5kgd2sp_17201766_front_d1300.bin
