@@ -70,23 +70,7 @@ sys.ipo.pwrdncap=2
 persist.sys.usic.support=true
 
 # Radio
-ro.vendor.mtk_omacp_support=1
-ro.vendor.mtk_telephony_add_on_policy=0
-persist.vendor.mdlog.flush_log_ratio=0
-persist.vendor.wfc.sys_wfc_support=1
-persist.vendor.vzw_device_type=0
-persist.vendor.pms_removable=1
-persist.vendor.tran_boottime=0
-persist.vendor.tran_sign_prj=0
-persist.vendor.tran_source_prj=0
-persist.vendor.tran_target_prj=0
-ro.kom_telephony_support=0
-
-# Radio
 persist.sys.radio.force_lte_ca=true
-ro.vendor.mtk_telephony_add_on_policy=0
-vendor.rild.libargs=-d /dev/ttyC0
-vendor.rild.libpath=mtk-ril.so
 
 # WiFi
 ro.mediatek.wlan.p2p=1
