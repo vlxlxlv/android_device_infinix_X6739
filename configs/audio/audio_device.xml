@@ -47,7 +47,7 @@
             <kctl name="DAC In Mux" value="Normal Path" />
             <kctl name="LOL Mux" value="Playback_L_DAC" />
             <kctl name="RCV Mux" value="Voice Playback" />
-            <kctl name="Handset Volume" value="5" />
+            <kctl name="Handset Volume" value="8" />
         </path>
         <path name="dual_speaker_output" value="turnoff">
             <kctl name="LOL Mux" value="Open" />
