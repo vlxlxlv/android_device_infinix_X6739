@@ -728,6 +728,8 @@ vendor/etc/cust_color.xml
 vendor/etc/cust_silky_brightness.xml
 vendor/lib/egl/egl.cfg
 vendor/lib/mt6893/libmtk_drvb.so;SYMLINK=vendor/lib/libmtk_drvb.so
+vendor/lib/libion_mtk.so
+vendor/lib/libion_ulit.so
 vendor/lib64/egl/mt6893/libGLES_mali.so;SYMLINK=vendor/lib64/egl/libGLES_mali.so,vendor/lib64/hw/vulkan.mt6893.so
 vendor/lib64/egl/libGLES_meow.so
 vendor/lib64/egl/libMEOW_data.so
@@ -764,6 +766,8 @@ vendor/lib64/libgpud.so
 vendor/lib64/libgralloc_extra.so
 vendor/lib64/libgralloc_metadata.so
 vendor/lib64/libgralloctypes_mtk.so
+vendor/lib64/libion_mtk.so
+vendor/lib64/libion_ulit.so
 vendor/lib64/libmml.so
 vendor/lib64/libpq_cust_base.so
 vendor/lib64/libpqframework.so
