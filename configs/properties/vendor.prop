@@ -314,9 +314,6 @@ ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
 debug.sf.enable_egl_image_tracker=0
 
-# RKP
-remote_provisioning.hostname=remoteprovisioning.googleapis.com
-
 # TEE
 ro.mtk_key_manager_support=1
 ro.vendor.mtk_tee_gp_support=1

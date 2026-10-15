@@ -18,3 +18,6 @@ ro.fm.short_ana_sup=1
 
 # F2FS
 persist.fsck.disable_linear_lookup=on
+
+# RKP
+remote_provisioning.hostname=remoteprovisioning.googleapis.com
