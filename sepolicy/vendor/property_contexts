@@ -9,6 +9,10 @@ vendor.debug.seninf.hs_trail                u:object_r:vendor_mtk_camera_prop:s0
 # Dynamic sensor
 vendor.dynamic_sensor.                          u:object_r:vendor_dynamic_sensor_prop:s0
 
+# DTS Audio
+vendor.dts.audio.                           u:object_r:vendor_dts_audio_prop:s0
+ro.vendor.dts.                              u:object_r:vendor_dts_audio_prop:s0
+
 # Fingerprint
 persist.vendor.goodix.dump_data             u:object_r:vendor_fingerprint_prop:s0
 persist.vendor.sys.fp.dump_data             u:object_r:vendor_fingerprint_prop:s0
