@@ -157,6 +157,45 @@ vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml
 vendor/etc/audio_param/Volume_AudioParam.xml
 vendor/etc/audio_param/Volume_ParamUnitDesc.xml
 
+# Audio - DTS
+vendor/etc/dts/acc/d30de3a0-b177-4822-9c15-816b79545f82_usb_44.bin
+vendor/etc/dts/acc/d30de3a0-b177-4822-9c15-816b79545f82_usb_48.bin
+vendor/etc/dts/beq44
+vendor/etc/dts/beq48
+vendor/etc/dts/ctc
+vendor/etc/dts/current_bluetooth44k
+vendor/etc/dts/current_bluetooth48k
+vendor/etc/dts/current_lineout48k
+vendor/etc/dts/current_speaker48k
+vendor/etc/dts/current_usb44k
+vendor/etc/dts/current_usb48k
+vendor/etc/dts/customer.cfg
+vendor/etc/dts/dts_audio_settings
+vendor/etc/dts/games_accessory44
+vendor/etc/dts/games_accessory48
+vendor/etc/dts/games_speaker48
+vendor/etc/dts/movie_accessory44
+vendor/etc/dts/movie_accessory48
+vendor/etc/dts/movie_speaker48
+vendor/etc/dts/music_accessory44
+vendor/etc/dts/music_accessory48
+vendor/etc/dts/music_speaker48
+vendor/etc/dts/off_speaker48
+vendor/etc/init/dts.rc
+vendor/lib/libdts-eagle-shared.so
+vendor/lib/libdtsdsec.so
+vendor/lib/soundfx/libdtsaudio.so
+vendor/lib64/libdts-eagle-shared.so
+vendor/lib64/libdtsdsec.so
+vendor/lib64/soundfx/libdtsaudio.so
+
+# Audio - DTS Audio app (patched)
+product/app/DtsAudio/DtsAudio.apk;PRESIGNED|8f4ff98702eb1a89f8f93aa5a240f003e3578f9d
+system/etc/default-permissions/default-com.transsion.dtsaudio.xml|0ddc36858acd375616c54cdc3f9ab807908e1013
+system/etc/permissions/dtsaudio.xml|559c3666fcc1fa2157e20d423684569f8e060722
+system/etc/sysconfig/config-com.transsion.dtsaudio.xml|0bdf4ecd3b97ef66bd211f499a3186572d680752
+system/framework/dtsaudio.jar|544dc0d2dc1c3944397e0421e41da73105202e41
+
 # Bluetooth
 vendor/etc/init/init.bt_drv.rc
 vendor/lib64/libbluetooth_mtk.so

@@ -22,6 +22,9 @@
         <library name="loudness_enhancer" path="libldnhncr.so"/>
         <library name="dynamics_processing" path="libdynproc.so"/>
         <library name="pre_processing" path="libaudiopreprocessing.so"/>
+        <!-- DTS START -->
+        <library name="dtsaudio" path="libdtsaudio.so"/>
+        <!-- DTS END -->
     </libraries>
 
     <!-- list of effects to load.
@@ -62,12 +65,44 @@
         <effect name="agc" library="pre_processing" uuid="aa8130e0-66fc-11e0-bad0-0002a5d5c51b"/>
         <effect name="aec" library="pre_processing" uuid="bb392ec0-8d4d-11e0-a896-0002a5d5c51b"/>
         <effect name="ns" library="pre_processing" uuid="c06c8400-8e06-11e0-9cb6-0002a5d5c51b"/>
+        <!-- DTS START -->
+        <effect name="dtsaudio" library="dtsaudio" uuid="146edfc0-7ed2-11e4-80eb-0002a5d5c51b"/>
+        <!-- DTS END -->
     </effects>
 
     <!--  Transsion or Three-way Effect stream START -->
     <!-- DOLBY ADD STREAM: don't remove it -->
     <!--  Transsion or Three-way Effect stream END -->
 
+    <postprocess>
+        <stream type="music">
+            <apply effect="dtsaudio"/>
+        </stream>
+        <stream type="ring">
+        </stream>
+        <stream type="alarm">
+        </stream>
+        <stream type="system">
+        </stream>
+        <stream type="voice_call">
+        </stream>
+        <stream type="notification">
+        </stream>
+        <stream type="bluetooth_sco">
+        </stream>
+        <stream type="dtmf">
+        </stream>
+        <stream type="enforced_audible">
+        </stream>
+        <stream type="accessibility">
+        </stream>
+        <stream type="tts">
+        </stream>
+        <stream type="assistant">
+        </stream>
+        <stream type="call_assistant">
+        </stream>
+    </postprocess>
     <!-- Audio pre processor configurations.
          The pre processor configuration is described in a "preprocess" element and consists in a
          list of elements each describing pre processor settings for a given use case or "stream".
