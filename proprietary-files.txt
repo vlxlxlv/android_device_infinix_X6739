@@ -164,7 +164,6 @@ vendor/etc/dts/current_speaker48k
 vendor/etc/dts/current_usb44k
 vendor/etc/dts/current_usb48k
 vendor/etc/dts/customer.cfg
-vendor/etc/dts/dts-eagle.lic
 vendor/etc/dts/dts_audio_settings
 vendor/etc/dts/games_accessory44
 vendor/etc/dts/games_accessory48
